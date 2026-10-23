@@ -272,28 +272,30 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
 Bộ giải pháp quy hoạch theo 4 phân hệ chức năng chiến lược:
 
 ```mermaid
-flowchart LR
-    A["Meikova Platform"] --> B["Bảo Mật & Trí Tuệ"]
-    A --> C["Sáng Tạo Đa Phương Tiện"]
-    A --> D["Hạ Tầng & Hệ Thống"]
-    A --> E["Cộng Tác & Năng Suất"]
-
-    B --> B1["Agent · Trợ lý AI Cục bộ"]
-    B --> B2["Vault · Kho Dữ liệu Mã hóa"]
+flowchart TD
+    Meikova["Meikova Platform"]
     
-    C --> C1["Studio · Biên tập Âm thanh Đa kênh"]
-    C --> C2["Prism · Cắt dựng Video Tốc độ cao"]
-    C --> C3["Cast · Phát trực tiếp & Màn hình"]
+    Meikova --> B["Bảo Mật & AI"]
+    Meikova --> C["Đa Phương Tiện"]
+    Meikova --> D["Hạ Tầng Hệ Thống"]
+    Meikova --> E["Cộng Tác Quản Trị"]
 
-    D --> D1["Terminal · Terminal & Quản lý Máy chủ"]
-    D --> D2["Pulse · Giám sát Đo xa & Cảnh báo"]
-    D --> D3["Sync · Đồng bộ P2P Tập tin & Bộ nhớ tạm"]
+    B --> B1["Agent"]
+    B --> B2["Vault"]
+    
+    C --> C1["Studio"]
+    C --> C2["Prism"]
+    C --> C3["Cast"]
 
-    E --> E1["Doc · Quản trị Tri thức & Markdown"]
-    E --> E2["Thread · Hội thoại Nhóm Mã hóa P2P"]
-    E --> E3["Atlas · Lộ trình & Quản lý Dự án"]
-    E --> E4["Dock · Bàn làm việc & Launcher Ứng dụng"]
-    E --> E5["Forge · Đóng gói & Tự động Triển khai"]
+    D --> D1["Terminal"]
+    D --> D2["Pulse"]
+    D --> D3["Sync"]
+
+    E --> E1["Doc"]
+    E --> E2["Thread"]
+    E --> E3["Atlas"]
+    E --> E4["Dock"]
+    E --> E5["Forge"]
 ```
 
 ### Chi Tiết Danh Mục Quy Hoạch:
