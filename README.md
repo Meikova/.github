@@ -271,7 +271,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
 
 Bộ giải pháp quy hoạch theo 4 phân hệ chức năng chiến lược:
 
-<table>
+<table width="100%">
   <thead>
     <tr>
       <th width="25%">Bảo Mật & Trí Tuệ</th>
@@ -283,47 +283,64 @@ Bộ giải pháp quy hoạch theo 4 phân hệ chức năng chiến lược:
   <tbody>
     <tr valign="top">
       <td>
-        <img src="./assets/icons/meikova-agent.png" width="32" height="32" alt="Agent" align="left" style="margin-right: 8px;" />
-        <strong>Agent</strong><br /><sub>Trợ lý AI cục bộ</sub>
-        <br clear="all" /><br />
-        <img src="./assets/icons/meikova-vault.png" width="32" height="32" alt="Vault" align="left" style="margin-right: 8px;" />
-        <strong>Vault</strong><br /><sub>Kho mã hóa Zero-Knowledge</sub>
+        <p>
+          <img src="./assets/icons/meikova-agent.png" width="28" height="28" valign="middle" /> <strong>Agent</strong><br />
+          <sub>Trợ lý AI tự trị hoạt động 100% cục bộ (Local LLM), điều phối quy trình an toàn không gửi dữ liệu ra ngoài.</sub>
+        </p>
+        <p>
+          <img src="./assets/icons/meikova-vault.png" width="28" height="28" valign="middle" /> <strong>Vault</strong><br />
+          <sub>Kho lưu trữ mã hóa dữ liệu bảo mật cấp độ quân sự, quản trị mật khẩu cá nhân Zero-Knowledge.</sub>
+        </p>
       </td>
       <td>
-        <img src="./assets/icons/meikova-studio.png" width="32" height="32" alt="Studio" align="left" style="margin-right: 8px;" />
-        <strong>Studio</strong><br /><sub>Biên tập âm thanh DAW</sub>
-        <br clear="all" /><br />
-        <img src="./assets/icons/meikova-prism.png" width="32" height="32" alt="Prism" align="left" style="margin-right: 8px;" />
-        <strong>Prism</strong><br /><sub>Cắt dựng video GPU</sub>
-        <br clear="all" /><br />
-        <img src="./assets/icons/meikova-cast.png" width="32" height="32" alt="Cast" align="left" style="margin-right: 8px;" />
-        <strong>Cast</strong><br /><sub>Truyền phát WebRTC</sub>
+        <p>
+          <img src="./assets/icons/meikova-studio.png" width="28" height="28" valign="middle" /> <strong>Studio</strong><br />
+          <sub>Biên tập âm thanh đa kênh chuyên nghiệp (DAW nhẹ), master track và thiết kế âm thanh không gian.</sub>
+        </p>
+        <p>
+          <img src="./assets/icons/meikova-prism.png" width="28" height="28" valign="middle" /> <strong>Prism</strong><br />
+          <sub>Cắt dựng và xử lý video tăng tốc phần cứng GPU, tối ưu biên tập và chuyển mã hàng loạt.</sub>
+        </p>
+        <p>
+          <img src="./assets/icons/meikova-cast.png" width="28" height="28" valign="middle" /> <strong>Cast</strong><br />
+          <sub>Truyền phát màn hình không dây, chia sẻ phiên làm việc trực tiếp thời gian thực WebRTC.</sub>
+        </p>
       </td>
       <td>
-        <img src="./assets/icons/meikova-terminal.png" width="32" height="32" alt="Terminal" align="left" style="margin-right: 8px;" />
-        <strong>Terminal</strong><br /><sub>SSH & quản lý cụm</sub>
-        <br clear="all" /><br />
-        <img src="./assets/icons/meikova-pulse.png" width="32" height="32" alt="Pulse" align="left" style="margin-right: 8px;" />
-        <strong>Pulse</strong><br /><sub>Đo xa & cảnh báo</sub>
-        <br clear="all" /><br />
-        <img src="./assets/icons/meikova-sync.png" width="32" height="32" alt="Sync" align="left" style="margin-right: 8px;" />
-        <strong>Sync</strong><br /><sub>Đồng bộ P2P thiết bị</sub>
+        <p>
+          <img src="./assets/icons/meikova-terminal.png" width="28" height="28" valign="middle" /> <strong>Terminal</strong><br />
+          <sub>Mô phỏng terminal hiện đại, quản lý kết nối SSH đa máy chủ và điều phối cụm phân tán.</sub>
+        </p>
+        <p>
+          <img src="./assets/icons/meikova-pulse.png" width="28" height="28" valign="middle" /> <strong>Pulse</strong><br />
+          <sub>Bảng đo xa telemetry hệ thống, đo lường độ trễ mạng và cảnh báo bất thường thời gian thực.</sub>
+        </p>
+        <p>
+          <img src="./assets/icons/meikova-sync.png" width="28" height="28" valign="middle" /> <strong>Sync</strong><br />
+          <sub>Tiện ích đồng bộ dữ liệu ngang hàng (P2P), chia sẻ clipboard và truyền tập tin tốc độ mạng LAN.</sub>
+        </p>
       </td>
       <td>
-        <img src="./assets/icons/meikova-doc.png" width="32" height="32" alt="Doc" align="left" style="margin-right: 8px;" />
-        <strong>Doc</strong><br /><sub>Tri thức Markdown</sub>
-        <br clear="all" /><br />
-        <img src="./assets/icons/meikova-thread.png" width="32" height="32" alt="Thread" align="left" style="margin-right: 8px;" />
-        <strong>Thread</strong><br /><sub>Hội thoại nhóm E2EE</sub>
-        <br clear="all" /><br />
-        <img src="./assets/icons/meikova-atlas.png" width="32" height="32" alt="Atlas" align="left" style="margin-right: 8px;" />
-        <strong>Atlas</strong><br /><sub>Quản lý lộ trình</sub>
-        <br clear="all" /><br />
-        <img src="./assets/icons/meikova-dock.png" width="32" height="32" alt="Dock" align="left" style="margin-right: 8px;" />
-        <strong>Dock</strong><br /><sub>Launcher ứng dụng</sub>
-        <br clear="all" /><br />
-        <img src="./assets/icons/meikova-forge.png" width="32" height="32" alt="Forge" align="left" style="margin-right: 8px;" />
-        <strong>Forge</strong><br /><sub>Đóng gói & CI/CD</sub>
+        <p>
+          <img src="./assets/icons/meikova-doc.png" width="28" height="28" valign="middle" /> <strong>Doc</strong><br />
+          <sub>Không gian ghi chép và quản trị tri thức dạng đồ thị, hỗ trợ định dạng Markdown mở cục bộ.</sub>
+        </p>
+        <p>
+          <img src="./assets/icons/meikova-thread.png" width="28" height="28" valign="middle" /> <strong>Thread</strong><br />
+          <sub>Hội thoại nhóm nội bộ và cộng tác phân tán với mã hóa đầu-cuối (E2EE) không qua máy chủ đám mây.</sub>
+        </p>
+        <p>
+          <img src="./assets/icons/meikova-atlas.png" width="28" height="28" valign="middle" /> <strong>Atlas</strong><br />
+          <sub>Công cụ hoạch định tiến độ phát triển dự án, theo dõi roadmap kỹ thuật và backlog liên repo.</sub>
+        </p>
+        <p>
+          <img src="./assets/icons/meikova-dock.png" width="28" height="28" valign="middle" /> <strong>Dock</strong><br />
+          <sub>Khay điều hướng ứng dụng và launcher tập trung, tích hợp phím tắt toàn cục và quản lý cửa sổ.</sub>
+        </p>
+        <p>
+          <img src="./assets/icons/meikova-forge.png" width="28" height="28" valign="middle" /> <strong>Forge</strong><br />
+          <sub>Bộ công cụ tự động hóa đóng gói đa nền tảng (Win/Mac/Linux/Android), ký số binary và xuất bản CI/CD.</sub>
+        </p>
       </td>
     </tr>
   </tbody>
