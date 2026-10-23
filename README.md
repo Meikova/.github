@@ -5,34 +5,33 @@
 # MEIKOVA
 
 **Build what matters.**  
-*Hệ sinh thái phần mềm mã nguồn mở đa nền tảng, kiến trúc Ambient Dark và trải nghiệm Offline-First.*
+*Hệ sinh thái phần mềm mã nguồn mở đa nền tảng, thiết kế Ambient Dark và kiến trúc Offline-First.*
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-9EF6D0?style=flat-square&labelColor=11151B" alt="License MIT" />
   <img src="https://img.shields.io/badge/Architecture-Offline--First-83E8AC?style=flat-square&labelColor=11151B" alt="Offline-First" />
-  <img src="https://img.shields.io/badge/SSO-Ed25519-A6C5FF?style=flat-square&labelColor=11151B" alt="Ed25519 SSO" />
+  <img src="https://img.shields.io/badge/Auth-Ed25519%20SSO-A6C5FF?style=flat-square&labelColor=11151B" alt="Ed25519 SSO" />
   <img src="https://img.shields.io/badge/Design-Ambient%20Instrument-FFB38A?style=flat-square&labelColor=11151B" alt="Ambient Instrument" />
-  <img src="https://img.shields.io/badge/Zero-Tracking%20%7C%20Telemetry-92DDD4?style=flat-square&labelColor=11151B" alt="Zero Tracking" />
+  <img src="https://img.shields.io/badge/Telemetry-Zero%20Tracking-92DDD4?style=flat-square&labelColor=11151B" alt="Zero Tracking" />
 </p>
 
 ---
 
 </div>
 
-## Triết Lý Phát Triển & Sứ Mệnh Cộng Đồng
+## Triết Lý Phát Triển & Giá Trị Cốt Lõi
 
-Meikova được xây dựng với mục tiêu cung cấp bộ giải pháp phần mềm độc lập, mã nguồn mở, bảo vệ quyền riêng tư và phục vụ công việc hàng ngày của người dùng trên mọi nền tảng:
+Meikova hướng tới các giải pháp phần mềm độc lập, đề cao quyền riêng tư và hiệu năng thực tế cho người dùng:
 
-- **Mã nguồn mở vì cộng đồng:** 100% mã nguồn minh bạch, giấy phép MIT, không gắn mã theo dõi (zero analytics/telemetry), tự do tự lưu trữ (self-hostable) và làm chủ dữ liệu cá nhân.
-- **Tiện ích thực chiến hàng ngày:** Tối ưu cho nhu cầu thực tế: hòa trộn âm thanh, thu nhận nội dung đa phương tiện, quản lý tài chính, truy cập máy tính từ xa, duyệt tệp tin bảo mật và giám sát an ninh mạng.
-- **Đa nền tảng thống nhất:** Trải nghiệm liền mạch trên Windows, macOS, Linux, Android, iOS, Web PWA, Browser Extension và OS Background Services.
-- **Offline-First & Hiệu năng cao:** Dữ liệu luôn lưu trữ cục bộ (Local SQLite WAL / Turso LibSQL Cloud Sync), khởi động dưới 1 giây, độ trễ tiệm cận 0ms và không phụ thuộc kết nối Internet liên tục.
+- **Mã nguồn mở & Tự do dữ liệu:** 100% minh bạch với giấy phép MIT, loại bỏ hoàn toàn mã theo dõi người dùng (zero tracking), hỗ trợ tự lưu trữ (self-hostable) và toàn quyền kiểm soát dữ liệu.
+- **Tiện ích đa nền tảng:** Phục vụ trực tiếp công việc hàng ngày trên Windows, macOS, Linux, Android, iOS, Web PWA và Browser Extensions.
+- **Hiệu năng & Offline-First:** Dữ liệu ưu tiên lưu trữ cục bộ qua SQLite WAL / Turso LibSQL Cloud, thời gian phản hồi tiệm cận 0ms, hoạt động ổn định ngay cả khi mất kết nối mạng.
 
 ---
 
 ## Bảng Nhận Diện 26 Thương Hiệu (Folded Continuum)
 
-Toàn bộ hệ thống sản phẩm thuộc Meikova được chuẩn hóa dựa trên ngôn ngữ hình học **Folded Continuum** – nguyên lý hai thùy và giao điểm lemniscate không lặp lại:
+Toàn bộ hệ sinh thái tuân thủ ngôn ngữ hình học **Folded Continuum** – phát triển từ cấu trúc hai thùy và giao điểm lemniscate không lặp lại:
 
 <div align="center">
   <img src="./assets/meikova-identity-board.png" width="100%" alt="Meikova 26 Marks - One Continuum Identity Board" />
@@ -42,16 +41,16 @@ Toàn bộ hệ thống sản phẩm thuộc Meikova được chuẩn hóa dựa
 
 ## 4 Trụ Cột Nền Tảng Cốt Lõi (Core Ecosystem)
 
-Bốn giải pháp nền tảng định hình khung kiến trúc phân tán của hệ sinh thái Meikova:
+Bốn giải pháp hạ tầng định hình năng lực vận hành của hệ sinh thái Meikova:
 
-<table>
+<table width="100%">
   <thead>
     <tr>
       <th width="70" align="center">Icon</th>
       <th width="200">Dự Án</th>
-      <th>Mô Tả & Trọng Tâm Kỹ Thuật</th>
-      <th width="140">Nền Tảng</th>
-      <th width="110" align="center">Trạng Thái</th>
+      <th>Mô Tả Kỹ Thuật</th>
+      <th width="160">Nền Tảng</th>
+      <th width="130" align="center">Trạng Thái</th>
     </tr>
   </thead>
   <tbody>
@@ -66,8 +65,8 @@ Bốn giải pháp nền tảng định hình khung kiến trúc phân tán củ
         <code>meikova-auth</code>
       </td>
       <td>
-        <strong>Identity Gateway & Universal SSO Gateway.</strong><br />
-        Cổng xác thực tập trung, xác minh Ed25519 offline (~0.1ms), PBKDF2/scrypt, Google OAuth 2.0 GIS đa nền tảng, tích hợp Turso LibSQL Cloud.
+        <strong>Identity Gateway & Universal SSO.</strong><br />
+        Cổng xác thực tập trung, xác minh token Ed25519 offline (~0.1ms), PBKDF2/scrypt, Google OAuth 2.0 GIS, tích hợp Turso LibSQL Cloud.
       </td>
       <td>Web SSO, Cloud REST, JWKS</td>
       <td align="center"><img src="https://img.shields.io/badge/Status-Active%20Dev-A6C5FF?style=flat-square&labelColor=11151B" alt="Active Dev" /></td>
@@ -84,9 +83,9 @@ Bốn giải pháp nền tảng định hình khung kiến trúc phân tán củ
       </td>
       <td>
         <strong>Duplex Bridge Remote Control.</strong><br />
-        Hệ thống điều khiển máy trạm từ xa và đường hầm đo xa (telemetry tunnel) độ trễ siêu thấp. Khách truy cập web client zero-install, truyền tải dữ liệu an toàn qua WebSocket.
+        Điều khiển máy trạm từ xa và truyền dữ liệu đo xa (telemetry) độ trễ siêu thấp qua WebSocket. Web client truy cập trực tiếp không cần cài đặt.
       </td>
-      <td>Desktop (Win/Linux/macOS), Web PWA</td>
+      <td>Desktop (Win/Mac/Linux), Web PWA</td>
       <td align="center"><img src="https://img.shields.io/badge/Release-v1.0.53-83E8AC?style=flat-square&labelColor=11151B" alt="v1.0.53" /></td>
     </tr>
     <tr>
@@ -101,7 +100,7 @@ Bốn giải pháp nền tảng định hình khung kiến trúc phân tán củ
       </td>
       <td>
         <strong>Phase Rotor AI Audio Mashup Deck.</strong><br />
-        Bộ máy mashup âm thanh thời gian thực, tách stem Demucs (Vocals/Drums/Bass/Other), bộ lọc DSP, Web Audio API Canvas Visualizer và soundscape player liên tục.
+        Bộ máy mashup âm thanh thời gian thực, tách 4 stem Demucs (Vocals/Drums/Bass/Other), hiệu ứng DSP và soundscape player với Canvas visualizer.
       </td>
       <td>Web PWA, Desktop, Mobile, HF Space</td>
       <td align="center"><img src="https://img.shields.io/badge/Release-v1.0.3-FFB38A?style=flat-square&labelColor=11151B" alt="v1.0.3" /></td>
@@ -118,7 +117,7 @@ Bốn giải pháp nền tảng định hình khung kiến trúc phân tán củ
       </td>
       <td>
         <strong>Gravity Intake Media Engine.</strong><br />
-        Công cụ thu nhận và trích xuất đa phương tiện hiệu năng cao. Hỗ trợ đa luồng tải, chuyển đổi FFmpeg, stream capture, bypass kiểm duyệt qua Google DoH.
+        Thu nhận và trích xuất đa phương tiện hiệu năng cao. Hỗ trợ tải đa luồng, pipeline FFmpeg, stream capture và vượt chặn kiểm duyệt qua Google DoH.
       </td>
       <td>Desktop Shell, Web, Chrome Extension</td>
       <td align="center"><img src="https://img.shields.io/badge/Release-v2.0.7-83C4FF?style=flat-square&labelColor=11151B" alt="v2.0.7" /></td>
@@ -130,16 +129,16 @@ Bốn giải pháp nền tảng định hình khung kiến trúc phân tán củ
 
 ## Dự Án Ứng Dụng Đang Phát Triển (Domain Extensions)
 
-Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống, công việc kỹ thuật và quản lý dữ liệu:
+Bộ công cụ chuyên biệt phục vụ các tác vụ công việc kỹ thuật, quản trị dữ liệu và đời sống:
 
-<table>
+<table width="100%">
   <thead>
     <tr>
       <th width="70" align="center">Icon</th>
       <th width="200">Dự Án</th>
-      <th>Đặc Tả Nghiệp Vụ & Nền Tảng Kỹ Thuật</th>
-      <th width="140">Stack Chính</th>
-      <th width="110" align="center">Trạng Thái</th>
+      <th>Nghiệp Vụ & Nền Tảng Kỹ Thuật</th>
+      <th width="160">Stack Chính</th>
+      <th width="130" align="center">Trạng Thái</th>
     </tr>
   </thead>
   <tbody>
@@ -155,7 +154,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
       </td>
       <td>
         <strong>Reserve Fold Personal Finance.</strong><br />
-        Quản lý tài chính cá nhân thông minh, phân tích thu chi đa tiền tệ, bóc tách hóa đơn tự động qua AI cục bộ, theo dõi danh mục tài sản và dự toán ngân sách.
+        Quản lý tài chính cá nhân, bóc tách hóa đơn tự động qua AI cục bộ, theo dõi thu chi đa tiền tệ và phân tích ngân sách.
       </td>
       <td>TypeScript, SQLite, Local AI, PWA</td>
       <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-ECD39A?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
@@ -172,7 +171,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
       </td>
       <td>
         <strong>Optical Wings RAW & HDR Imaging.</strong><br />
-        Bộ xử lý ảnh chất lượng cao chuyên biệt cho file RAW, ghép phơi sáng đa khung (bracket merging), tone mapping thời gian thực và khử nhiễu ảnh số.
+        Xử lý ảnh RAW chất lượng cao, ghép phơi sáng đa khung (bracket merging) và tone mapping thời gian thực.
       </td>
       <td>Python, OpenCV, WebAssembly</td>
       <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-A4DDFA?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
@@ -189,7 +188,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
       </td>
       <td>
         <strong>Slipstream ETL & Data Pipeline.</strong><br />
-        Bộ máy xử lý, chuyển đổi và tích hợp dữ liệu tốc độ cao. Tự động hóa đồng bộ CSDL phân tán, lập lịch biểu ETL và xuất báo cáo phân tích tự động.
+        Trích xuất, chuyển đổi và tích hợp dữ liệu tốc độ cao. Tự động hóa đồng bộ CSDL phân tán và xuất báo cáo biểu mẫu.
       </td>
       <td>Python, Pandas, SQLite, Worker Pool</td>
       <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-FFD18F?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
@@ -206,7 +205,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
       </td>
       <td>
         <strong>Reciprocal Ribbons B2B Marketplace.</strong><br />
-        Sàn giao dịch tài sản kỹ thuật số, dự án mã nguồn và giải pháp phần mềm doanh nghiệp với kiến trúc microservices và thanh toán ký quỹ (escrow).
+        Sàn giao dịch tài sản kỹ thuật số, dự án mã nguồn và giải pháp phần mềm doanh nghiệp với thanh toán ký quỹ (escrow).
       </td>
       <td>Node.js, TypeScript, Docker</td>
       <td align="center"><img src="https://img.shields.io/badge/Release-v1.0.0-F3C59D?style=flat-square&labelColor=11151B" alt="v1.0.0" /></td>
@@ -223,7 +222,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
       </td>
       <td>
         <strong>Folded Bulwark Threat Sentinel.</strong><br />
-        Hệ thống giám sát an ninh mạng, phát hiện nguy cơ web defacement và phân tích dấu hiệu tấn công thông qua mô hình học máy lai (hybrid ML).
+        Giám sát an ninh mạng, phát hiện web defacement và phân tích dấu hiệu tấn công qua mô hình học máy lai (hybrid ML).
       </td>
       <td>Python, Browser Shield, Threat Intel</td>
       <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-92DDD4?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
@@ -240,7 +239,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
       </td>
       <td>
         <strong>Learning Commons & Course Hub.</strong><br />
-        Nền tảng thương mại khóa học trực tuyến, hệ thống quản trị đào tạo (LMS), diễn đàn cộng đồng học viên và tích hợp lưu trữ đám mây.
+        Nền tảng thương mại khóa học trực tuyến, quản trị đào tạo (LMS), diễn đàn trao đổi và đồng bộ lưu trữ đám mây.
       </td>
       <td>TypeScript, Express, Cloud Storage</td>
       <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-C1B7F3?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
@@ -257,7 +256,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
       </td>
       <td>
         <strong>Navigable Chambers File Explorer.</strong><br />
-        Trình duyệt và quản lý tệp tin đa nền tảng (Web & Desktop). Tích hợp giao thức SFTP, WebDAV, xem trước tập tin media và giải nén trực tuyến.
+        Trình duyệt và quản lý tập tin đa nền tảng (Web & Desktop). Tích hợp giao thức SFTP, WebDAV và xem trước đa phương tiện.
       </td>
       <td>TypeScript, Electron, Native FS</td>
       <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-A8D5BF?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
@@ -269,172 +268,109 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
 
 ## Lộ Trình Phát Triển Tương Lai (Upcoming Roadmap)
 
-Bộ giải pháp quy hoạch theo 4 phân hệ chức năng chiến lược:
+Danh mục 13 giải pháp quy hoạch theo 4 phân hệ chiến lược:
 
 <table width="100%">
   <thead>
     <tr>
-      <th width="25%">Bảo Mật & Trí Tuệ</th>
-      <th width="25%">Sáng Tạo Đa Phương Tiện</th>
-      <th width="25%">Hạ Tầng & Hệ Thống</th>
-      <th width="25%">Cộng Tác & Quản Trị</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr valign="top">
-      <td>
-        <p>
-          <img src="./assets/icons/meikova-agent.png" width="28" height="28" valign="middle" /> <strong>Agent</strong><br />
-          <sub>Trợ lý AI tự trị hoạt động 100% cục bộ (Local LLM), điều phối quy trình an toàn không gửi dữ liệu ra ngoài.</sub>
-        </p>
-        <p>
-          <img src="./assets/icons/meikova-vault.png" width="28" height="28" valign="middle" /> <strong>Vault</strong><br />
-          <sub>Kho lưu trữ mã hóa dữ liệu bảo mật cấp độ quân sự, quản trị mật khẩu cá nhân Zero-Knowledge.</sub>
-        </p>
-      </td>
-      <td>
-        <p>
-          <img src="./assets/icons/meikova-studio.png" width="28" height="28" valign="middle" /> <strong>Studio</strong><br />
-          <sub>Biên tập âm thanh đa kênh chuyên nghiệp (DAW nhẹ), master track và thiết kế âm thanh không gian.</sub>
-        </p>
-        <p>
-          <img src="./assets/icons/meikova-prism.png" width="28" height="28" valign="middle" /> <strong>Prism</strong><br />
-          <sub>Cắt dựng và xử lý video tăng tốc phần cứng GPU, tối ưu biên tập và chuyển mã hàng loạt.</sub>
-        </p>
-        <p>
-          <img src="./assets/icons/meikova-cast.png" width="28" height="28" valign="middle" /> <strong>Cast</strong><br />
-          <sub>Truyền phát màn hình không dây, chia sẻ phiên làm việc trực tiếp thời gian thực WebRTC.</sub>
-        </p>
-      </td>
-      <td>
-        <p>
-          <img src="./assets/icons/meikova-terminal.png" width="28" height="28" valign="middle" /> <strong>Terminal</strong><br />
-          <sub>Mô phỏng terminal hiện đại, quản lý kết nối SSH đa máy chủ và điều phối cụm phân tán.</sub>
-        </p>
-        <p>
-          <img src="./assets/icons/meikova-pulse.png" width="28" height="28" valign="middle" /> <strong>Pulse</strong><br />
-          <sub>Bảng đo xa telemetry hệ thống, đo lường độ trễ mạng và cảnh báo bất thường thời gian thực.</sub>
-        </p>
-        <p>
-          <img src="./assets/icons/meikova-sync.png" width="28" height="28" valign="middle" /> <strong>Sync</strong><br />
-          <sub>Tiện ích đồng bộ dữ liệu ngang hàng (P2P), chia sẻ clipboard và truyền tập tin tốc độ mạng LAN.</sub>
-        </p>
-      </td>
-      <td>
-        <p>
-          <img src="./assets/icons/meikova-doc.png" width="28" height="28" valign="middle" /> <strong>Doc</strong><br />
-          <sub>Không gian ghi chép và quản trị tri thức dạng đồ thị, hỗ trợ định dạng Markdown mở cục bộ.</sub>
-        </p>
-        <p>
-          <img src="./assets/icons/meikova-thread.png" width="28" height="28" valign="middle" /> <strong>Thread</strong><br />
-          <sub>Hội thoại nhóm nội bộ và cộng tác phân tán với mã hóa đầu-cuối (E2EE) không qua máy chủ đám mây.</sub>
-        </p>
-        <p>
-          <img src="./assets/icons/meikova-atlas.png" width="28" height="28" valign="middle" /> <strong>Atlas</strong><br />
-          <sub>Công cụ hoạch định tiến độ phát triển dự án, theo dõi roadmap kỹ thuật và backlog liên repo.</sub>
-        </p>
-        <p>
-          <img src="./assets/icons/meikova-dock.png" width="28" height="28" valign="middle" /> <strong>Dock</strong><br />
-          <sub>Khay điều hướng ứng dụng và launcher tập trung, tích hợp phím tắt toàn cục và quản lý cửa sổ.</sub>
-        </p>
-        <p>
-          <img src="./assets/icons/meikova-forge.png" width="28" height="28" valign="middle" /> <strong>Forge</strong><br />
-          <sub>Bộ công cụ tự động hóa đóng gói đa nền tảng (Win/Mac/Linux/Android), ký số binary và xuất bản CI/CD.</sub>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-### Chi Tiết Danh Mục Quy Hoạch:
-
-<table>
-  <thead>
-    <tr>
       <th width="70" align="center">Icon</th>
-      <th width="180">Tên Dự Kiến</th>
+      <th width="180">Dự Án</th>
+      <th width="190">Phân Hệ</th>
       <th>Định Hướng Chức Năng</th>
-      <th width="140">Mã Nhận Diện</th>
+      <th width="150" align="center">Mã Nhận Diện</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-agent.png" width="48" height="48" alt="Meikova Agent" /></td>
       <td><strong>Meikova Agent</strong></td>
-      <td>Trợ lý AI tự trị hoạt động 100% cục bộ (Local LLM), điều phối tác vụ và tự động hóa quy trình không gửi dữ liệu ra ngoài.</td>
-      <td><code>#C5A0FA</code> Cognitive link</td>
+      <td>Bảo Mật & Trí Tuệ</td>
+      <td>Trợ lý AI tự trị hoạt động 100% cục bộ (Local LLM), điều phối quy trình và tự động hóa tác vụ không gửi dữ liệu ra ngoài.</td>
+      <td align="center"><code>#C5A0FA</code><br /><sub>Cognitive link</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-vault.png" width="48" height="48" alt="Meikova Vault" /></td>
       <td><strong>Meikova Vault</strong></td>
-      <td>Kho lưu trữ dữ liệu mã hóa cấp độ quân sự, quản lý mật khẩu và chứng thư số cá nhân với kiến trúc Zero-Knowledge.</td>
-      <td><code>#C7ADFF</code> Sealed chambers</td>
+      <td>Bảo Mật & Trí Tuệ</td>
+      <td>Kho lưu trữ mã hóa dữ liệu cấp độ quân sự, quản trị mật khẩu cá nhân và chứng thư số theo chuẩn Zero-Knowledge.</td>
+      <td align="center"><code>#C7ADFF</code><br /><sub>Sealed chambers</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-studio.png" width="48" height="48" alt="Meikova Studio" /></td>
       <td><strong>Meikova Studio</strong></td>
-      <td>Phần mềm biên tập âm thanh đa kênh chuyên nghiệp (DAW nhẹ), master track và thiết kế âm thanh không gian.</td>
-      <td><code>#F6A0D4</code> Spectral weave</td>
+      <td>Sáng Tạo Đa Phương Tiện</td>
+      <td>Phần mềm biên tập âm thanh đa kênh chuyên nghiệp (DAW nhẹ), xử lý master track và thiết kế âm thanh không gian.</td>
+      <td align="center"><code>#F6A0D4</code><br /><sub>Spectral weave</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-prism.png" width="48" height="48" alt="Meikova Prism" /></td>
       <td><strong>Meikova Prism</strong></td>
-      <td>Phần mềm cắt dựng và biên tập video tăng tốc phần cứng GPU, tối ưu xuất bản nội dung nhanh và chuyển mã hàng loạt.</td>
-      <td><code>#E9B0F1</code> Refracted splice</td>
+      <td>Sáng Tạo Đa Phương Tiện</td>
+      <td>Phần mềm cắt dựng và xử lý video tăng tốc phần cứng GPU, tối ưu xuất bản nội dung nhanh và chuyển mã hàng loạt.</td>
+      <td align="center"><code>#E9B0F1</code><br /><sub>Refracted splice</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-cast.png" width="48" height="48" alt="Meikova Cast" /></td>
       <td><strong>Meikova Cast</strong></td>
-      <td>Công cụ truyền phát màn hình, trình chiếu không dây và chia sẻ phiên làm việc trực tiếp thời gian thực qua WebRTC.</td>
-      <td><code>#FFA991</code> Radiant fold</td>
+      <td>Sáng Tạo Đa Phương Tiện</td>
+      <td>Công cụ truyền phát màn hình không dây, chia sẻ phiên làm việc trực tiếp thời gian thực qua giao thức WebRTC.</td>
+      <td align="center"><code>#FFA991</code><br /><sub>Radiant fold</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-terminal.png" width="48" height="48" alt="Meikova Terminal" /></td>
       <td><strong>Meikova Terminal</strong></td>
-      <td>Trình mô phỏng terminal hiện đại, quản lý kết nối SSH đa máy chủ, điều phối container và giám sát cụm phân tán.</td>
-      <td><code>#D3EE88</code> Command lattice</td>
+      <td>Hạ Tầng & Hệ Thống</td>
+      <td>Trình mô phỏng terminal hiện đại, quản lý phiên SSH đa máy chủ, điều phối container và giám sát cụm phân tán.</td>
+      <td align="center"><code>#D3EE88</code><br /><sub>Command lattice</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-pulse.png" width="48" height="48" alt="Meikova Pulse" /></td>
       <td><strong>Meikova Pulse</strong></td>
-      <td>Bảng điều khiển giám sát sức khỏe hệ thống, đo lường độ trễ mạng, mức sử dụng tài nguyên và gửi cảnh báo thời gian thực.</td>
-      <td><code>#F5A7BE</code> Telemetry crest</td>
+      <td>Hạ Tầng & Hệ Thống</td>
+      <td>Bảng điều khiển đo xa telemetry hệ thống, giám sát độ trễ mạng, tài nguyên phần cứng và cảnh báo thời gian thực.</td>
+      <td align="center"><code>#F5A7BE</code><br /><sub>Telemetry crest</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-sync.png" width="48" height="48" alt="Meikova Sync" /></td>
       <td><strong>Meikova Sync</strong></td>
-      <td>Tiện ích đồng bộ dữ liệu ngang hàng (P2P), truyền tập tin tốc độ LAN/Mesh và đồng bộ clipboard giữa máy tính và điện thoại.</td>
-      <td><code>#A7BBFF</code> Reciprocal orbit</td>
+      <td>Hạ Tầng & Hệ Thống</td>
+      <td>Tiện ích đồng bộ dữ liệu ngang hàng (P2P), truyền tập tin tốc độ mạng nội bộ và đồng bộ clipboard đa thiết bị.</td>
+      <td align="center"><code>#A7BBFF</code><br /><sub>Reciprocal orbit</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-doc.png" width="48" height="48" alt="Meikova Doc" /></td>
       <td><strong>Meikova Doc</strong></td>
+      <td>Cộng Tác & Quản Trị</td>
       <td>Không gian ghi chép và quản trị tri thức dạng đồ thị, hỗ trợ định dạng Markdown mở và lưu trữ cục bộ vĩnh viễn.</td>
-      <td><code>#91DAC0</code> Continuity folio</td>
+      <td align="center"><code>#91DAC0</code><br /><sub>Continuity folio</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-thread.png" width="48" height="48" alt="Meikova Thread" /></td>
       <td><strong>Meikova Thread</strong></td>
-      <td>Ứng dụng trò chuyện nhóm và cộng tác nội bộ với mã hóa đầu-cuối (E2EE), loại bỏ trung gian máy chủ đám mây.</td>
-      <td><code>#8CD6ED</code> Conversation knot</td>
+      <td>Cộng Tác & Quản Trị</td>
+      <td>Ứng dụng trò chuyện nhóm và cộng tác phân tán với mã hóa đầu-cuối (E2EE), loại bỏ trung gian máy chủ đám mây.</td>
+      <td align="center"><code>#8CD6ED</code><br /><sub>Conversation knot</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-atlas.png" width="48" height="48" alt="Meikova Atlas" /></td>
       <td><strong>Meikova Atlas</strong></td>
-      <td>Công cụ lập kế hoạch phát triển dự án, theo dõi roadmap kỹ thuật, quản lý backlog và liên kết chéo các repository.</td>
-      <td><code>#B8D995</code> Terrace link</td>
+      <td>Cộng Tác & Quản Trị</td>
+      <td>Công cụ lập kế hoạch phát triển dự án, theo dõi roadmap kỹ thuật, quản lý backlog và liên kết chéo repository.</td>
+      <td align="center"><code>#B8D995</code><br /><sub>Terrace link</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-dock.png" width="48" height="48" alt="Meikova Dock" /></td>
       <td><strong>Meikova Dock</strong></td>
-      <td>Khay điều hướng ứng dụng và bố trí không gian làm việc tập trung, tích hợp phím tắt toàn cục và quản lý cửa sổ thông minh.</td>
-      <td><code>#E5D38E</code> Workspace cradle</td>
+      <td>Cộng Tác & Quản Trị</td>
+      <td>Khay điều hướng ứng dụng và launcher tập trung, tích hợp phím tắt toàn cục và quản lý không gian làm việc.</td>
+      <td align="center"><code>#E5D38E</code><br /><sub>Workspace cradle</sub></td>
     </tr>
     <tr>
       <td align="center"><img src="./assets/icons/meikova-forge.png" width="48" height="48" alt="Meikova Forge" /></td>
       <td><strong>Meikova Forge</strong></td>
+      <td>Cộng Tác & Quản Trị</td>
       <td>Bộ công cụ tự động hóa đóng gói ứng dụng đa nền tảng (Win/Mac/Linux/Android), ký số binary và xuất bản phát hành CI/CD.</td>
-      <td><code>#F7AE7F</code> Forged continuum</td>
+      <td align="center"><code>#F7AE7F</code><br /><sub>Forged continuum</sub></td>
     </tr>
   </tbody>
 </table>
