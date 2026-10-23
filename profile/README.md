@@ -70,7 +70,7 @@ Bốn giải pháp nền tảng định hình khung kiến trúc phân tán củ
         Cổng xác thực tập trung, xác minh Ed25519 offline (~0.1ms), PBKDF2/scrypt, Google OAuth 2.0 GIS đa nền tảng, tích hợp Turso LibSQL Cloud.
       </td>
       <td>Web SSO, Cloud REST, JWKS</td>
-      <td align="center"><img src="https://img.shields.io/badge/Active-v1.0-A6C5FF?style=flat-square&labelColor=11151B" alt="Active" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Status-Active%20Dev-A6C5FF?style=flat-square&labelColor=11151B" alt="Active Dev" /></td>
     </tr>
     <tr>
       <td align="center">
@@ -87,7 +87,7 @@ Bốn giải pháp nền tảng định hình khung kiến trúc phân tán củ
         Hệ thống điều khiển máy trạm từ xa và đường hầm đo xa (telemetry tunnel) độ trễ siêu thấp. Khách truy cập web client zero-install, truyền tải dữ liệu an toàn qua WebSocket.
       </td>
       <td>Desktop (Win/Linux/macOS), Web PWA</td>
-      <td align="center"><img src="https://img.shields.io/badge/Active-v1.0-83E8AC?style=flat-square&labelColor=11151B" alt="Active" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Release-v1.0.53-83E8AC?style=flat-square&labelColor=11151B" alt="v1.0.53" /></td>
     </tr>
     <tr>
       <td align="center">
@@ -104,7 +104,7 @@ Bốn giải pháp nền tảng định hình khung kiến trúc phân tán củ
         Bộ máy mashup âm thanh thời gian thực, tách stem Demucs (Vocals/Drums/Bass/Other), bộ lọc DSP, Web Audio API Canvas Visualizer và soundscape player liên tục.
       </td>
       <td>Web PWA, Desktop, Mobile, HF Space</td>
-      <td align="center"><img src="https://img.shields.io/badge/Active-v1.0-FFB38A?style=flat-square&labelColor=11151B" alt="Active" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Release-v1.0.3-FFB38A?style=flat-square&labelColor=11151B" alt="v1.0.3" /></td>
     </tr>
     <tr>
       <td align="center">
@@ -121,7 +121,7 @@ Bốn giải pháp nền tảng định hình khung kiến trúc phân tán củ
         Công cụ thu nhận và trích xuất đa phương tiện hiệu năng cao. Hỗ trợ đa luồng tải, chuyển đổi FFmpeg, stream capture, bypass kiểm duyệt qua Google DoH.
       </td>
       <td>Desktop Shell, Web, Chrome Extension</td>
-      <td align="center"><img src="https://img.shields.io/badge/Active-v1.0-83C4FF?style=flat-square&labelColor=11151B" alt="Active" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Release-v2.0.7-83C4FF?style=flat-square&labelColor=11151B" alt="v2.0.7" /></td>
     </tr>
   </tbody>
 </table>
@@ -158,7 +158,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
         Quản lý tài chính cá nhân thông minh, phân tích thu chi đa tiền tệ, bóc tách hóa đơn tự động qua AI cục bộ, theo dõi danh mục tài sản và dự toán ngân sách.
       </td>
       <td>TypeScript, SQLite, Local AI, PWA</td>
-      <td align="center"><img src="https://img.shields.io/badge/Building-Beta-ECD39A?style=flat-square&labelColor=11151B" alt="Building" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-ECD39A?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
     </tr>
     <tr>
       <td align="center">
@@ -175,7 +175,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
         Bộ xử lý ảnh chất lượng cao chuyên biệt cho file RAW, ghép phơi sáng đa khung (bracket merging), tone mapping thời gian thực và khử nhiễu ảnh số.
       </td>
       <td>Python, OpenCV, WebAssembly</td>
-      <td align="center"><img src="https://img.shields.io/badge/Building-Beta-A4DDFA?style=flat-square&labelColor=11151B" alt="Building" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-A4DDFA?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
     </tr>
     <tr>
       <td align="center">
@@ -192,7 +192,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
         Bộ máy xử lý, chuyển đổi và tích hợp dữ liệu tốc độ cao. Tự động hóa đồng bộ CSDL phân tán, lập lịch biểu ETL và xuất báo cáo phân tích tự động.
       </td>
       <td>Python, Pandas, SQLite, Worker Pool</td>
-      <td align="center"><img src="https://img.shields.io/badge/Building-Beta-FFD18F?style=flat-square&labelColor=11151B" alt="Building" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-FFD18F?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
     </tr>
     <tr>
       <td align="center">
@@ -209,7 +209,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
         Sàn giao dịch tài sản kỹ thuật số, dự án mã nguồn và giải pháp phần mềm doanh nghiệp với kiến trúc microservices và thanh toán ký quỹ (escrow).
       </td>
       <td>Node.js, TypeScript, Docker</td>
-      <td align="center"><img src="https://img.shields.io/badge/Building-Beta-F3C59D?style=flat-square&labelColor=11151B" alt="Building" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Release-v1.0.0-F3C59D?style=flat-square&labelColor=11151B" alt="v1.0.0" /></td>
     </tr>
     <tr>
       <td align="center">
@@ -226,7 +226,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
         Hệ thống giám sát an ninh mạng, phát hiện nguy cơ web defacement và phân tích dấu hiệu tấn công thông qua mô hình học máy lai (hybrid ML).
       </td>
       <td>Python, Browser Shield, Threat Intel</td>
-      <td align="center"><img src="https://img.shields.io/badge/Building-Beta-92DDD4?style=flat-square&labelColor=11151B" alt="Building" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-92DDD4?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
     </tr>
     <tr>
       <td align="center">
@@ -243,7 +243,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
         Nền tảng thương mại khóa học trực tuyến, hệ thống quản trị đào tạo (LMS), diễn đàn cộng đồng học viên và tích hợp lưu trữ đám mây.
       </td>
       <td>TypeScript, Express, Cloud Storage</td>
-      <td align="center"><img src="https://img.shields.io/badge/Building-Beta-C1B7F3?style=flat-square&labelColor=11151B" alt="Building" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-C1B7F3?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
     </tr>
     <tr>
       <td align="center">
@@ -260,7 +260,7 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
         Trình duyệt và quản lý tệp tin đa nền tảng (Web & Desktop). Tích hợp giao thức SFTP, WebDAV, xem trước tập tin media và giải nén trực tuyến.
       </td>
       <td>TypeScript, Electron, Native FS</td>
-      <td align="center"><img src="https://img.shields.io/badge/Building-Beta-A8D5BF?style=flat-square&labelColor=11151B" alt="Building" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Status-In%20Dev-A8D5BF?style=flat-square&labelColor=11151B" alt="In Dev" /></td>
     </tr>
   </tbody>
 </table>
