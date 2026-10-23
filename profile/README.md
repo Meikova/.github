@@ -271,32 +271,63 @@ Các công cụ ứng dụng tiện ích chuyên sâu phục vụ đời sống,
 
 Bộ giải pháp quy hoạch theo 4 phân hệ chức năng chiến lược:
 
-```mermaid
-flowchart TD
-    Meikova["Meikova Platform"]
-    
-    Meikova --> B["Bảo Mật & AI"]
-    Meikova --> C["Đa Phương Tiện"]
-    Meikova --> D["Hạ Tầng Hệ Thống"]
-    Meikova --> E["Cộng Tác Quản Trị"]
-
-    B --> B1["Agent"]
-    B --> B2["Vault"]
-    
-    C --> C1["Studio"]
-    C --> C2["Prism"]
-    C --> C3["Cast"]
-
-    D --> D1["Terminal"]
-    D --> D2["Pulse"]
-    D --> D3["Sync"]
-
-    E --> E1["Doc"]
-    E --> E2["Thread"]
-    E --> E3["Atlas"]
-    E --> E4["Dock"]
-    E --> E5["Forge"]
-```
+<table>
+  <thead>
+    <tr>
+      <th width="25%">Bảo Mật & Trí Tuệ</th>
+      <th width="25%">Sáng Tạo Đa Phương Tiện</th>
+      <th width="25%">Hạ Tầng & Hệ Thống</th>
+      <th width="25%">Cộng Tác & Quản Trị</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr valign="top">
+      <td>
+        <img src="./assets/icons/meikova-agent.png" width="32" height="32" alt="Agent" align="left" style="margin-right: 8px;" />
+        <strong>Agent</strong><br /><sub>Trợ lý AI cục bộ</sub>
+        <br clear="all" /><br />
+        <img src="./assets/icons/meikova-vault.png" width="32" height="32" alt="Vault" align="left" style="margin-right: 8px;" />
+        <strong>Vault</strong><br /><sub>Kho mã hóa Zero-Knowledge</sub>
+      </td>
+      <td>
+        <img src="./assets/icons/meikova-studio.png" width="32" height="32" alt="Studio" align="left" style="margin-right: 8px;" />
+        <strong>Studio</strong><br /><sub>Biên tập âm thanh DAW</sub>
+        <br clear="all" /><br />
+        <img src="./assets/icons/meikova-prism.png" width="32" height="32" alt="Prism" align="left" style="margin-right: 8px;" />
+        <strong>Prism</strong><br /><sub>Cắt dựng video GPU</sub>
+        <br clear="all" /><br />
+        <img src="./assets/icons/meikova-cast.png" width="32" height="32" alt="Cast" align="left" style="margin-right: 8px;" />
+        <strong>Cast</strong><br /><sub>Truyền phát WebRTC</sub>
+      </td>
+      <td>
+        <img src="./assets/icons/meikova-terminal.png" width="32" height="32" alt="Terminal" align="left" style="margin-right: 8px;" />
+        <strong>Terminal</strong><br /><sub>SSH & quản lý cụm</sub>
+        <br clear="all" /><br />
+        <img src="./assets/icons/meikova-pulse.png" width="32" height="32" alt="Pulse" align="left" style="margin-right: 8px;" />
+        <strong>Pulse</strong><br /><sub>Đo xa & cảnh báo</sub>
+        <br clear="all" /><br />
+        <img src="./assets/icons/meikova-sync.png" width="32" height="32" alt="Sync" align="left" style="margin-right: 8px;" />
+        <strong>Sync</strong><br /><sub>Đồng bộ P2P thiết bị</sub>
+      </td>
+      <td>
+        <img src="./assets/icons/meikova-doc.png" width="32" height="32" alt="Doc" align="left" style="margin-right: 8px;" />
+        <strong>Doc</strong><br /><sub>Tri thức Markdown</sub>
+        <br clear="all" /><br />
+        <img src="./assets/icons/meikova-thread.png" width="32" height="32" alt="Thread" align="left" style="margin-right: 8px;" />
+        <strong>Thread</strong><br /><sub>Hội thoại nhóm E2EE</sub>
+        <br clear="all" /><br />
+        <img src="./assets/icons/meikova-atlas.png" width="32" height="32" alt="Atlas" align="left" style="margin-right: 8px;" />
+        <strong>Atlas</strong><br /><sub>Quản lý lộ trình</sub>
+        <br clear="all" /><br />
+        <img src="./assets/icons/meikova-dock.png" width="32" height="32" alt="Dock" align="left" style="margin-right: 8px;" />
+        <strong>Dock</strong><br /><sub>Launcher ứng dụng</sub>
+        <br clear="all" /><br />
+        <img src="./assets/icons/meikova-forge.png" width="32" height="32" alt="Forge" align="left" style="margin-right: 8px;" />
+        <strong>Forge</strong><br /><sub>Đóng gói & CI/CD</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Chi Tiết Danh Mục Quy Hoạch:
 
