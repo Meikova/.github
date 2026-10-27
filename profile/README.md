@@ -83,10 +83,10 @@ Bốn giải pháp hạ tầng định hình năng lực vận hành của hệ 
       </td>
       <td>
         <strong>Duplex Bridge Remote Control.</strong><br />
-        Điều khiển máy trạm từ xa và truyền dữ liệu đo xa (telemetry) độ trễ siêu thấp qua WebSocket. Web client truy cập trực tiếp không cần cài đặt.
+        Điều khiển máy trạm từ xa 120 FPS độ trễ tiệm cận 0ms qua pipeline DXGI Duplication và nén TurboJPEG SIMD. Web client truy cập trực tiếp không cần cài đặt.
       </td>
       <td>Desktop (Win/Mac/Linux), Web PWA</td>
-      <td align="center"><img src="https://img.shields.io/badge/Release-v1.0.53-83E8AC?style=flat-square&labelColor=11151B" alt="v1.0.53" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Release-v1.1.0-83E8AC?style=flat-square&labelColor=11151B" alt="v1.1.0" /></td>
     </tr>
     <tr>
       <td align="center">
